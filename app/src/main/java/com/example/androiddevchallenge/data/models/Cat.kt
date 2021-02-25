@@ -15,11 +15,11 @@
  */
 package com.example.androiddevchallenge.data.models
 
-import androidx.annotation.IdRes
+import androidx.annotation.DrawableRes
 
 data class Cat(
     val id: String,
     val name: String,
     val description: String,
-    @IdRes val imageRes: Int
+    @DrawableRes val imageRes: Int
 )
